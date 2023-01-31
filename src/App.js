@@ -1,5 +1,6 @@
 import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+import PetsChart from './components/PetsChart.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </Route>
         <Route path="/charts">
           <h1>Chart Library</h1>
+          <PetsChart />
         </Route>
       </Switch>
     </div>
